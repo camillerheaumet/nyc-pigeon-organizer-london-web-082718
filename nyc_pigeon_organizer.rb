@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
       value2.each do |key3, value3|
         binding.pry
       if value3.any? != key
-    
+
         key3.delete
     #  key3.delete_if {value3.any? != key}
     end
